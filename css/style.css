@@ -48,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 h3 {
 	font-size: 1.5rem;
 	letter-spacing: 0.2rem;
+	text-transform: uppercase;
 	color: var(--persian-green);
 }
 
@@ -103,7 +104,9 @@ p {
 	max-width: 400px;
 	padding: 1rem;
 	border-bottom-right-radius: 30px;
+	border-left: 10px solid var(--burnt-sienna); 
 	font-weight: bold; 
+	color: #000;
 }
 
 .container {
