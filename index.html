@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color JS</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="palette">
+                <ul>
+                    <li class="box charcoal"></li>
+                    <li class="box persian-green"></li>
+                    <li class="box orange-yellow-crayola"></li>
+                    <li class="box sandy-brown"></li>
+                    <li class="box burnt-sienna"></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <section class="wrapper" id="lesson-1">
+                <h3>1. ВВЕДЕНИЕ В JAVASCRIPT</h3>
+                <p>1. Подключаем внешний скрипт на страницу.</p>
+                <div class="code sandy-brown">
+                    <code>
+                        <span><</span>script src="intro.js"<span>></span><span><</span>/script<span>></span>
+                    </code>
+                </div>
+                <p>2. Используем встроенный метод.</p>
+                <div class="code sandy-brown">
+                    <code>
+                        <span><</span>script<span>>
+                        </span><br><br>
+                        document.write('Hello world');<br><br>
+                        <span><</span>/script<span>>
+                        </span><br>
+                    </code>
+                </div>
+            </section>
+        </main>
+    </div>
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+    <!-- livereload -->
+    <script>
+    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+    </script>
+</body>
+
+</html>

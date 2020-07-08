@@ -1,0 +1,87 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+:root {
+	--charcoal: #264653ff;
+	--persian-green: #2a9d8fff;
+	--orange-yellow-crayola: #e9c46aff;
+	--sandy-brown: #f4a261ff;
+	--burnt-sienna: #e76f51ff;
+}
+
+/*Global Style*/
+
+body {
+	font-family: "Andale Mono", AndaleMono, monospace;
+	background: var(--charcoal);
+	color: #fff;
+}
+
+h3 {
+	/*text-align: center;*/
+	color: var(--persian-green);
+}
+
+p {
+	/*text-align: center;*/
+	color: var(--orange-yellow-crayola);
+}
+
+.charcoal {
+	background: var(--charcoal);
+}
+
+.persian-green {
+	background: var(--persian-green);
+}
+
+.orange-yellow-crayola {
+	background: var(--orange-yellow-crayola);
+}
+
+.sandy-brown {
+	background: var(--sandy-brown);
+}
+
+.burnt-sienna {
+	background: var(--burnt-sienna);
+}
+
+.box {
+	display: block;
+	width: 30px;
+	height: 30px;
+}
+
+.palette ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.palette li {
+	margin: 1rem;
+}
+
+.code {
+	width: 100%;
+	max-width: 400px;
+	/*text-align: center;*/
+	padding: 1rem;
+	/*margin: 0 auto;*/
+}
+
+.container {
+	width: 100%;
+	max-width: 1240px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
