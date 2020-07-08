@@ -46,12 +46,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h3 {
-	/*text-align: center;*/
+	font-size: 1.5rem;
+	letter-spacing: 0.2rem;
 	color: var(--persian-green);
 }
 
 p {
-	/*text-align: center;*/
 	color: var(--orange-yellow-crayola);
 }
 
@@ -84,20 +84,26 @@ p {
 .palette ul {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	margin-bottom: 100px;
+	justify-content: flex-start;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .palette li {
-	margin: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+	border: 2px #fff;
+	border-style: groove;
 }
 
 .code {
 	width: 100%;
 	max-width: 400px;
-	/*text-align: center;*/
 	padding: 1rem;
-	/*margin: 0 auto;*/
+	border-bottom-right-radius: 30px;
+	font-weight: bold; 
 }
 
 .container {
@@ -105,4 +111,8 @@ p {
 	max-width: 1240px;
 	padding: 0 20px;
 	margin: 0 auto;
+}
+
+.lesson-1 {
+	margin-bottom: 20px;
 }
