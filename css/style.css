@@ -1,5 +1,6 @@
 html {
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 *,
@@ -19,9 +20,29 @@ html {
 /*Global Style*/
 
 body {
+	width: 100%;
+	min-width: 320px;
+	overflow-x: hidden;
+	position: relative;
 	font-family: "Andale Mono", AndaleMono, monospace;
 	background: var(--charcoal);
 	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul, li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-size: inherit;
 }
 
 h3 {
